@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    
+    background-color: #f7f7f7;
+  }
+  .smallCards{
+    /* border: 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 40px 20px;
+  }
+  .smContent{
+    margin-top: 30px;
+    font-size: 2rem;
+    color: gray;
+    text-align: center;
+  }
+  .h1TopCard{
+    color: gray;
+    margin: 30px;
+  }
+  @media only screen and (max-width : 600px) {
+    .h1TopCard{
+      font-size:  1.5rem; ;
+    }
+  }

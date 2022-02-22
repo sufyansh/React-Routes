@@ -1,0 +1,60 @@
+.smalCardBox {
+    /* border: 1px solid; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 50%;
+    margin: 0;
+    padding: 0%;
+
+  }
+  .smalCardBox img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .smalCardBox h5 {
+    /* border: 1px solid; */
+    padding: 0 5px;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    background-color: #fff;
+  }
+  .smalCardBox p {
+    font-size: 0.6rem;
+    padding: 0 5px;
+    color: gray;
+    background-color: #fff;
+  }
+  .smalCardBox h3 {
+    font-style: italic;
+    font-size: 0.8rem;
+    background-color: #fff;
+  }
+  .smalCardBox p i {
+    color: #ff4500;
+    background-color: #fff;
+  }
+  .cardContent {
+    /* border: 1px solid ; */
+    background-color: #fff;
+  }
+  .cardImg {
+    position: relative;
+  }
+  .cardImg i {
+    /* border: 1px solid; */
+    font-size: 1.5rem;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  
+  @media only screen and (max-width: 1190px) {
+     .cardContent h5{
+         font-size: 0.9rem;
+     }
+  }
+  @media only screen and (max-width: 1085px) {
+      .cardContent h5{
+          font-size: 0.7rem;
+      }
+   }

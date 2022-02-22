@@ -1,0 +1,64 @@
+.parent{
+    margin-bottom: 200px;
+}
+.bannerBox {
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.card {
+  height: 270px;
+  max-width: 400px;
+  min-width: 350px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: white;
+  top: 50%;
+  left: 5%;
+}
+.card h3 {
+  padding: 15px;
+  font-weight: bolder;
+}
+.card p {
+  margin: 0;
+  padding: 0 15px;
+  color: gray;
+}
+.card button {
+  width: 270px;
+  padding: 10px;
+  background-color: #a52a2a;
+  color: white;
+  border: none;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.card button:hover {
+  background-color: #8b0000;
+  transition: all 0.5s ease;
+}
+.card a {
+  text-decoration: underline;
+  font-style: italic;
+  color: black;
+  margin: 10px 0 0 15px;
+}
+@media only screen and (max-width: 420px) {
+  .bannerBox {
+    height: 350px;
+  }
+  .card {
+    left: 0;
+    margin: 0 5px;
+  }
+  .card p {
+    font-size: 0.9rem;
+  }
+  .card h3 {
+    font-size: 1.4rem;
+  }
+}

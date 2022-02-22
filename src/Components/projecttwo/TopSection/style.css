@@ -1,0 +1,101 @@
+.topContParent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.child1 {
+  width: 60%;
+  /* border: 1px solid ; */
+}
+.wineImgBox img {
+  display: block;
+}
+.wineImgBox {
+  /* border: 1px solid; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.grandeBox {
+  width: 65%;
+  padding: 0 10px;
+}
+.grandeBox img {
+  width: 100%;
+  border-radius: 10px;
+}
+.grandeContent {
+  /* border: 1px solid; */
+  width: 25%;
+  /* height: 300px; */
+}
+.grandeContent img {
+  padding: 9px 8px;
+  border-radius: 15px;
+  width: 100%;
+}
+.wineContBox {
+  margin: 0 20px;
+  padding: 10px;
+  width: 80%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.child2 {
+  margin: 0 20px;
+  width: 35%;
+  /* border: 1px solid; */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  padding: 10px;
+}
+.child2 h5 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.child2 p {
+  color: gray;
+  font-size: 1.2rem;
+}
+.child2 p span {
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0 5px;
+}
+.child2 p strong {
+  color: #8b0000;
+}
+
+.btnMaroon,
+.btnGrey {
+  width: 160px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 20px;
+  border: none;
+}
+.btnMaroon {
+  background-color: #8b0000;
+  color: wheat;
+}
+.btnGrey {
+  background-color: lightgray;
+  color: black;
+}
+
+@media only screen and (max-width: 820px) {
+  .child1 {
+    width: 100%;
+  }
+  .wineContBox {
+    width: 90%;
+  }
+  .child2 {
+    margin: 10px 10px;
+    width: 92%;
+  }
+}

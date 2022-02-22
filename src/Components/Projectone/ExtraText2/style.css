@@ -1,0 +1,24 @@
+.extratxtBox {
+  /* border: 1px solid black; */
+}
+.extratxtBox h1 {
+  font-weight: normal;
+  font-style: oblique;
+  color: #525162;
+  margin: 20px;
+}
+.extratxtBox p {
+    /* border: 1px solid black; */
+    color: gray;
+    margin: 0px 20px;
+    font-size: 1.3rem;
+}
+.extratxtBox p span{
+    margin-right:15px;
+}
+.extratxtBox img{
+    /* border: 1px solid black; */
+    /* margin-right:15px ; */
+    margin: 20px;
+
+}

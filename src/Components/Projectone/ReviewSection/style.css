@@ -1,0 +1,62 @@
+.reviewParent{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.reviewBox {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 45%;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  background-color: white;
+}
+
+.reviewImg {
+  width: 80px;
+  margin-right: 10px;
+  background-color: transparent;
+
+}
+.reviewImg img {
+  border-radius: 50%;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+
+}
+.reviewStar {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent !important;
+  
+}
+.reviewStar i {
+  color: #ff4500;
+  background-color: transparent !important;
+ 
+
+}
+.reviewBox h5{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.reviewBox p{
+    padding-top: 5px;
+    color: gray;
+    margin: 0;
+    width: 290px;
+}
+
+
+.starCont{
+    color: gray;
+}
+
+@media only screen and (max-width :685px){
+    .reviewBox{
+        width: 950%;
+        margin: 10px 0 !important;
+    }
+}
